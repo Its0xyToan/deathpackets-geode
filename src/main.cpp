@@ -129,7 +129,7 @@ class $modify(ModifiedPlayerObject, PlayerObject) {
 		sp1.isUfo = player1->m_isBird;
 		sp1.isSpider = player1->m_isSpider;
 		sp1.isWave = player1->m_isDart;
-		sp1.isCube = !sp1.isBall && !sp1.isRobot && !sp1.isShip && !sp1.isSpider && !sp1.isSwing && !sp1.isUfo && !sp1.isWave ? true : false;
+		sp1.isCube = !sp1.isBall && !sp1.isRobot && !sp1.isShip && !sp1.isSpider && !sp1.isSwing && !sp1.isUfo && !sp1.isWave;
 
 		PacketPlayer sp2 = PacketPlayer();
 		if(data.isDual) {
@@ -145,7 +145,7 @@ class $modify(ModifiedPlayerObject, PlayerObject) {
 			sp2.isSpider = player2->m_isSpider;
 			sp2.isWave = player2->m_isDart;
 
-			sp2.isCube = !sp2.isBall && !sp2.isRobot && !sp2.isShip && !sp2.isSpider && !sp2.isSwing && !sp2.isUfo && !sp2.isWave ? true : false;
+			sp2.isCube = !sp2.isBall && !sp2.isRobot && !sp2.isShip && !sp2.isSpider && !sp2.isSwing && !sp2.isUfo && !sp2.isWave;
 		}
 
 		data.player1 = sp1;
