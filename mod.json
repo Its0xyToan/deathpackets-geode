@@ -1,0 +1,22 @@
+{
+	"geode": "3.8.1",
+	"gd": {
+		"win": "2.206",
+		"android": "2.206",
+		"mac": "2.206",
+		"ios": "2.206"
+	},
+	"id": "oxytoan.deathpackets",
+	"name": "deathpackets",
+	"version": "v1.0.0",
+	"developer": "OxyToan",
+	"description": "Do a post request with player data on death",
+	"settings": {
+		"post_location": {
+			"type": "string",
+			"name": "Post API Location",
+			"description": "Where should the post request be made ?",
+			"default": "localhost:3000/gd"
+		}
+	}
+}

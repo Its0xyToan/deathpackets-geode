@@ -1,0 +1,5 @@
+# For vscode configs
+.vscode
+
+# build folder
+build/
